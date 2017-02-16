@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		89D2797D1E5601AB00CF4082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D2797C1E5601AB00CF4082 /* AppDelegate.swift */; };
-		89D2797F1E5601AB00CF4082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D2797E1E5601AB00CF4082 /* ViewController.swift */; };
 		89D279821E5601AB00CF4082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D279801E5601AB00CF4082 /* Main.storyboard */; };
 		89D279851E5601AB00CF4082 /* _0170216_Stretchy_Snacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89D279831E5601AB00CF4082 /* _0170216_Stretchy_Snacks.xcdatamodeld */; };
 		89D279871E5601AB00CF4082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D279861E5601AB00CF4082 /* Assets.xcassets */; };
 		89D2798A1E5601AB00CF4082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D279881E5601AB00CF4082 /* LaunchScreen.storyboard */; };
+		89D279921E56053F00CF4082 /* SnackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D279911E56053F00CF4082 /* SnackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		89D279791E5601AB00CF4082 /* 20170216 Stretchy Snacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20170216 Stretchy Snacks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D2797C1E5601AB00CF4082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89D2797E1E5601AB00CF4082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89D279811E5601AB00CF4082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89D279841E5601AB00CF4082 /* _0170216_Stretchy_Snacks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _0170216_Stretchy_Snacks.xcdatamodel; sourceTree = "<group>"; };
 		89D279861E5601AB00CF4082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D279891E5601AB00CF4082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89D2798B1E5601AB00CF4082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D279911E56053F00CF4082 /* SnackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				89D2797C1E5601AB00CF4082 /* AppDelegate.swift */,
-				89D2797E1E5601AB00CF4082 /* ViewController.swift */,
+				89D279911E56053F00CF4082 /* SnackViewController.swift */,
 				89D279801E5601AB00CF4082 /* Main.storyboard */,
 				89D279861E5601AB00CF4082 /* Assets.xcassets */,
 				89D279881E5601AB00CF4082 /* LaunchScreen.storyboard */,
@@ -139,9 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D2797F1E5601AB00CF4082 /* ViewController.swift in Sources */,
 				89D2797D1E5601AB00CF4082 /* AppDelegate.swift in Sources */,
 				89D279851E5601AB00CF4082 /* _0170216_Stretchy_Snacks.xcdatamodeld in Sources */,
+				89D279921E56053F00CF4082 /* SnackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +303,7 @@
 				89D279901E5601AB00CF4082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
